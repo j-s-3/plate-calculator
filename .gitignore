@@ -21,3 +21,26 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# Eclipse related (and M2e)
+.classpath
+.project
+.settings/
+
+# Maven related (and some plugins)
+target/
+*.ser
+*.ec
+
+# Intellij
+*.ipr
+*.iml
+*.iws
+.idea/
+
+# Other
+.svn/
+.benchmarks.*.db
+
+# Junk (to be cleaned up)
+dependency-reduced-pom.xml
